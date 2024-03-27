@@ -1,0 +1,670 @@
+.container-box {
+    background-color: #F5F5F5;
+}
+
+a {
+    color: black !important;
+}
+.h1, .h2, .h4, .h6, h1, h2, h3, h4, h5, h6 {
+  
+    line-height: 1.2;
+    color: black !important;
+}
+.container{
+    margin: 0 20px auto;
+    width: 90% !important;
+}
+.container-con{
+    width: 97%;
+    height: auto;
+    margin:0 auto;
+    background-color:#F5F5F5;
+    margin-top: 20px;
+    
+}
+.header-item_shop a {
+    color: white !important;
+}
+.cuahang{
+    padding-top: 40px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 22% 76%;
+    column-gap: 2%;
+}
+
+.select-menu{
+    width: auto;
+    position: relative;
+    margin: 0 20px 0 15px;
+}
+.select-menu .select-btn{
+    display: flex;
+    width: 200px;
+    height: 30px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(12, 5, 5, 0.1);
+    border: 1px solid #CCCCCC;
+}
+.select-menu i{
+    font-size: 25px;
+    transition: 0.3s;
+}
+.select-menu.active .select-btn i{
+    transform:rotate(-180deg);
+}
+.select-menu .options{
+    margin-top:10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: none;
+    position: absolute;
+    top:70%;
+    left: 0;
+}
+.sBtn-text{
+    margin-left: 10px;
+}
+.options .option{
+    display: flex;
+    width: auto;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #fff;
+}
+.options .option:hover{
+    background-color: #f2f2f2;
+}
+.option i{
+    font-size: 25px;
+    margin-right: 12px;
+}
+.option .option-text{
+    font-size: 15px;
+    color: #333;
+    width: auto;
+}
+.select-menu.active .options{
+    display: block
+}
+.cuahang-trai,.cuahang-phai{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #fff;
+    border: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
+}
+.thongtinitem h5 {
+    color: red !important;
+}
+.cuahang-phai{
+    display: flex;
+    justify-content: right;
+}
+.cuahang-trai-tieude{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.cuahang-phai-tieude{
+    font-weight: 500;
+    padding-top: 10px;
+    font-size: 16px;
+
+}
+ol, ul {
+    padding-left: 0px !important;
+}
+.sanpham{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 22% 76%;
+    column-gap: 2%;
+    margin-top: 20px;
+}
+.thongtin-cuahang{
+    width: 100%;
+    height: 90%;
+    background-color: #fff;
+}
+.thongtin-cuahang-chitiet{
+    width:100%;
+    height: 100%;
+    margin:15px 10px 0;
+}
+.thongtin-cuahang-chitiet h3{
+    font-size: 23px !important;
+}
+.thongtin-cuahang-chitiet>div{
+    margin-bottom:25px;
+    gap:7px;
+    align-items: center;
+}
+#thongtinchung{
+    margin-top: 10px;
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.diachi{
+    margin-top: 15px;
+}
+
+#thongtin-cuahang-tieude{
+    font-size: 20px;
+}
+.mangxahoi-icon a i{
+    font-size: 20px;
+    background-color: #EBEBEB;
+    padding:10px;
+    border-radius: 5px;
+    margin:5px;
+}
+
+.sp-fb:hover{
+    background-color: #3A589D;
+    color: #fff;
+}
+
+.sp-tt:hover{
+    background-color: #2478BA;
+    color: #fff;
+}
+
+.sp-pr:hover{
+    background-color: #CB2320;
+    color: #fff;
+}
+.sp-le:hover{
+    background-color: #0072B7;
+    color: #fff;
+}
+.danhmucsanpham{
+    margin-top: 30px;
+}
+.danhmucsanpham-sp{
+    margin-top: 10px;
+}
+.danhmucsanpham-sp ul li:last-child{
+    border: none;
+}
+.danhmucsanpham-sp ul li{
+    padding: 12px 15px 12px 10px;
+    border-bottom: 1px solid #CCCCCC;
+    list-style-type: none;
+    width: 94%;
+}
+.danhmucsanpham-sp ul li:hover{
+    transform: scale(1.1);
+}
+.danhmucsanpham-sp ul li a{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: none;
+}
+.danhmucsanpham-sp ul li a h4{
+    font-size: 19px;
+    font-weight: 500;   ;
+}
+.danhmucsanpham-sp ul li a h5{
+    font-weight: 500;   
+    color: #848484;
+}
+
+.sanphamchitiet{
+    width: 100%;
+    height: auto;
+}
+.sanphamchitiet-khung{
+    margin:0 10px;
+}
+
+.sanphamchitiet-nd{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    column-gap: 20px;
+}
+.sanphamchitiet-nd-item{
+    height: auto;
+    background-color: #fff;
+    margin-bottom: 27px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+.item-khung{
+    margin:5px;
+}
+.sanphamchitiet-nd-item:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+}
+.item-nd{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.item-nd img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.thongtinitem{
+    height: 70px;
+    margin:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.thongtin h3{
+    color: white !important;
+}
+.thongtinitem h4{
+    font-size: 18px;
+}
+.thongtinitem h5{
+    color: red;
+    font-size: 17px;
+}
+.chuyentrang ul{
+    list-style-type: none;
+    display: flex;
+    column-gap: 20px;
+    font-size: 20px;
+    justify-content: center;
+}
+.chuyentrang ul li{
+    padding: 10px;
+}
+.chuyentrang ul li:hover{
+    background-color: #2B3990;
+    border-radius: 100px;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #071422;
+    display: flex;
+}
+
+.footer .item1{
+    width: 300px;
+    margin: 0 50px 0 100px;
+}
+
+.footer .item1 img{
+    width: 100%;
+    height: auto;
+}
+
+.footer .item1 p{
+    color: #fff;
+    font-size: 12px;
+    padding-left: 50px;
+}
+
+.footer .item1 .item1-icon{
+    padding: 20px 0 0 50px;
+    display: inline-flex;
+    column-gap: 10px;
+}
+
+.footer .item1 .item1-icon i{
+    color: #6A727A;
+    border: 1px solid #6A727A;
+    padding: 5px;
+}
+.footer .item1 .item1-icon a:hover i{
+    background-color: aqua ;
+    color: #000;
+}
+
+.contact i{
+    border: 1px solid #fff;
+    padding: 7px;
+    color: #fff;
+}
+.thongtin{
+    color: #fff;
+    margin-top: 50px;
+    margin-right:100px;
+}
+
+.thongtin ul{
+    line-height: 30px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.thongtin ul li{
+    font-size: 15px;
+    padding:5px 0;
+
+}
+#item1-mota{
+    font-size: 15px;
+}
+.contact ul{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.contact ul li{
+    border-bottom: 1px solid #15222F;
+    padding: 5px 0 5px 0px;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.contact ul li i{
+    border: none;
+    font-size: 30px;
+}
+
+.congdong{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #152330;
+    text-align: center;
+    align-items: center;
+    color: #8A9198;
+}
+
+.chuyentrang ul li {
+    margin-block: 5px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 50%;
+  
+}
+
+.chuyentrang ul li:hover     {
+    color: white !important ;
+    cursor: pointer;
+    background-color: red;
+}
+.intro {
+    height: 60px !important;
+    border-top: solid 2px #e5e5e5;
+    border-bottom: solid 2px #e5e5e5;
+ 
+}
+
+.chuyentrang ul li:hover .chuyentang-white    {
+    color: white !important ;
+}
+.header-item_link .bxs-chevron-down {
+    position: relative;
+    top: 0px; 
+     right: 0px;
+}
+
+
+/* Modal form sign */
+.modal {
+
+    --bs-modal-width: 60% !important;
+}
+
+.modal-title {
+
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+}
+.modal-content input {
+    padding-left: 10px !important;
+}
+.modal-header  {
+    border-bottom: none !important;
+}
+.modal-body {
+    margin-left: 26px;
+
+    font-style: italic;
+    font-weight: 500;
+    padding: 10px 0px 3px 0px !important;
+}
+.modal-header img {
+    height: 100px ;
+    position: absolute ;
+    padding-left: 33% ; 
+}
+.modal-footer {
+    border-top: none !important;
+}
+.modal-body_input{
+    max-width: 96%;
+    margin: 0 25px;
+    min-height: 40px !important; 
+    border-radius: 8px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.modal-body_input-box input {
+    position: relative;
+    width: 95% !important;
+}
+.modal-body_input-col {
+    max-height: 80px;
+    display: grid;
+    grid-template-columns: 50% 47%;
+}
+.modal-body_icon.bxs-low-vision {
+    font-size: 25px;
+    position: relative;
+    right: -93%;
+    top: -127%;
+
+}
+.modal-body_input-box .fa-address-book{
+    font-size: 25px;
+    position: relative;
+    right: -92%;
+    top: -28%;
+}
+.width-65 {
+    max-width: 65% !important;
+    margin: 0 25px;
+    min-height: 40px !important;
+    border-radius: 8px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+.modal-footer {
+    justify-content: space-between !important;
+    padding: 15px 20px;
+    width: 98.5%;
+}
+.btn.btn-primary {
+    margin-left: 8px;
+    font-weight: 650;
+    font-size: 20px;
+    background: red;
+    padding: 6px 25px 6px 25px;
+    border: none;
+}
+
+.btn.btn-primary:hover {
+    background-color: red;
+}
+.modal-body_grid {
+    display: grid;
+    max-height: 40px;
+
+}
+
+.modal-footer_right a {
+    padding-left: 5px;
+    font-weight: 600;
+    font-size: 18px ;
+ color: red;
+
+
+}
+.modal-footer_right a:hover {
+    color: red;
+    opacity: 0.6;
+}
+
+.modal.show .modal-dialog{
+    display: block;
+}
+.modal-content{
+    position: absolute !important;
+    min-height: 455px;
+    margin-top: 100px;
+}
+.modal-content.modal-content-formsign  {
+    display: none;
+    z-index: 100;
+}
+.modal-content-formsign .modal-body  {
+    max-height: 40px    ;
+}
+
+
+
+.modal-body-checkbox {
+    margin-right: 5px;
+    margin-top: 3px;
+    padding-bottom: 0;
+    position: relative;
+    min-width: 20px;
+    min-height: 20px;
+}
+.font-normal {
+    font-style: normal !important;
+   display: grid;
+   grid-template-columns: 33% 50% 14%;
+   overflow-x: hidden;
+   overflow-y: hidden !important;
+   min-height: 70px;
+   margin-bottom: 30px ;
+}
+.font-normal p {
+        display: flex;
+    align-items: center;
+    
+}
+.font-normal a {
+    display: flex;
+    align-items: center;
+}
+
+.modal-body_FP {
+  padding-top: 10px;
+  color: #000;
+}
+.modal-body_FP:hover {
+    opacity: 0.6;
+    color: red !important ;
+    transform: scale(1.1);
+  }
+  .modal-footer-formsign {
+    display: grid !important;
+    grid-template-columns: 8% 7% 25%;
+  }
+  .modal-footer-formsign button {
+    padding: 6px 10px 6px 25px !important;
+  }
+  .modal-footer-formsign button:hover {
+    transform: none ;
+   
+  }
+  .modal-footer-formsign .btn-facebook {
+    color: white;
+    font-size: 16px ;
+    background-color: #3b62a3;
+    border-radius: 4px;
+    min-width: 212px;
+    border: solid 1px #000;
+  }
+  .modal-footer-formsign .btn-facebook:hover {
+    color: white;
+    background-color: #3b62a3;
+  }
+  .modal-footer-formsign .btn-facebook .fa-facebook-f  {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    bottom: 98px;
+    left: 22px;
+  }
+  
+  .modal-footer-formsign .btn-facebook  .fa-google{
+   font-size: 18px;
+    color: white;
+    position: absolute;
+   
+    bottom: 98px;
+    right: 205px;
+  
+  }
+
+    
+  .modal-footer-formsign .btn-facebook  .fa-twitter{
+    font-size: 18px;
+     color: white;
+     position: absolute;
+     bottom: 98px;
+     right: 525px;
+   }
+   
+   
+  
+.modal-footer_box .btn-google{
+    background-color: red;
+    color: white    ;
+    border: solid 1px #000;
+
+}
+.modal-footer_box .btn-google:hover{
+    background-color: red;
+    opacity: 0.6;
+
+}
+.modal-footer_box .btn-twitter {
+    background-color: #19b0e7;
+    border: solid 1px #000;
+}
+.modal-footer_box .btn-twitter:hover {
+    background-color: #19b0e7;
+    opacity: 0.6;
+}
+.modal-footer-spc {
+    position: absolute;
+    display: flex;
+    bottom: 25px;
+    left: 34%;  
+
+}
+.modal-footer-button-spc button {
+     width: 220px;
+}
+.modal-footer.modal-footer-formsign {
+    padding-top: 0 !important;
+}
+.modal-content.modal-content-formsign.js-modal-content-dangnhap.open {
+    display: block;
+}
+.modal-body_input{
+    min-width: 94.5% !important ;
+}
+
+
+

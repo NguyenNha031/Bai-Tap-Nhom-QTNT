@@ -1,0 +1,793 @@
+
+.container-box {
+    background-color: #F5F5F5;
+    margin-top: 20px;
+}
+.container{
+    padding: 30px;
+    width: 100%;
+    height: auto;
+    background-color: #F5F5F5;
+}
+
+.sanpham{
+    width: 97%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    padding-bottom: 20px;
+    border: solid 1px #dddddd;
+}
+.sanpham img{
+    width: 412px;
+    height:450px;
+    margin: 10px 10px 0 20px;
+    border: 1px solid #000;
+    display: block;
+}
+
+.tensanpham{
+    width: 450px;
+    padding:10px 30px 30px 15px;
+    border-right: 2.5px solid #F5F5F5 ;
+
+}
+
+.tensanpham h1{
+    padding-bottom: 10px;
+    margin-bottom: 13px;
+    border-bottom: 3px solid #F5F5F5;
+    font-size: 25px;
+}
+
+.price{
+    margin:12px 0;
+    font-size: 30px;
+    color: red;
+    font-weight: 600;
+}
+
+.xuatsu{
+    list-style: unset;
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+.danhmucsp{
+    padding:0 15px 30px 30px;
+    width: 300px;
+    line-height: 35px;
+    
+}
+
+.danhmucsp-tieude{
+    margin-left: -22px;
+    font-size: 20px;
+    font-weight: 680;
+}
+#sp{
+    font-weight: 550;
+}
+.danhmucsp-sp li{
+    height: 45px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2.5px solid #F5F5F5 ;
+}
+.danhmucsp-sp li:last-child{
+   
+    border-bottom: none;
+}
+
+
+.danhmucsp-sp li:hover{
+    cursor: pointer;
+   transform: scale(1.1);
+}
+
+.danhmucsp-sp a{
+    font-size: 20px;
+}
+
+.count{
+    font-size: 13px;
+    color: rgb(169, 169, 169);
+}
+
+.soluong{
+    margin-top: 15px;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #C1C1C1;
+}
+
+.tanggiamsl{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.tanggiamsl::before{
+    content: "Số lượng: ";
+    padding-right: 15px;
+}
+.tanggiamsl input{
+    box-shadow: 0px -1px 2px 0px #999 inset;
+    width: 40px;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    border-right:none ;
+    border-left: none;
+}
+.tanggiamsl button i{
+    color: #666666;
+}
+.tanggiamsl button{
+    border: none;
+    padding: 7px;
+    border: 1px solid #ececec;
+    cursor: pointer;
+}
+
+.tanggiamsl button:hover{
+    background-color: #C1C1C1;
+}
+
+.tanggiamsl button:hover i{
+    color: #000;
+}
+
+.cong{
+    border-radius: 0 5px 5px 0;
+}
+.tru{
+    border-radius: 5px 0 0 5px;
+}
+
+.themvaogio{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px 0 0 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: red;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.themvaogio:hover{
+   opacity: 0.8 !important;
+}
+
+#tendanhmuc{
+    padding-top: 10px;
+}
+
+.sanpham-icon i{
+    padding: 10px;
+    background-color: #EBEBEB;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-top: 20px;
+    color: #000;
+}
+
+.sanpham-icon a{
+    padding-right: 8px;
+}
+.sp-fb:hover{
+    background-color: #3A589D;
+    color: #fff;
+}
+
+.sp-tt:hover{
+    background-color: #2478BA;
+    color: #fff;
+}
+
+.sp-pr:hover{
+    background-color: #CB2320;
+    color: #fff;
+}
+.sp-le:hover{
+    background-color: #0072B7;
+    color: #fff;
+}
+
+.mota{
+    width: 97%;
+    height: 770px;
+    margin: 50px auto 0;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 77% 22%;
+    column-gap: 1%;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #C1C1C1;
+    border: solid 1px #dddddd;
+}
+
+
+.mota-trai{
+    width: 100%;
+    height:auto;
+    padding: 0 15px;
+    overflow: scroll;
+}
+
+.mota-phai::-webkit-scrollbar,.mota-trai::-webkit-scrollbar{
+    display: none;
+}
+
+.mota-trai-tieude{
+    padding:30px 0 8px;
+    font-size: 20px;
+
+}
+
+.mota-trai-tieude-nd{
+    padding: 24px 0;   
+    border-bottom: 1px solid #C1C1C1;
+}
+
+.danhgiasl{
+    margin: 30px 0 8px;
+    font-size: 20px;
+}
+
+.danhgiacmt{
+    padding: 24px 0 20px;
+}
+
+.danhgiacmt h3{
+    margin-bottom: 10px;
+}
+
+.danhgiacmt p{
+    margin-bottom: 20px;
+}
+#cmt{
+    width: 100%;
+}
+
+.danhgiacuabanthan{
+    border: 3px solid #2B3990;
+    padding:25px
+}
+#danhgiacuaban{
+    padding: 10px 0; 
+    font-size: 20px;
+}
+.ten_email{
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: 47.5% 47.5%;
+    column-gap: 5%;
+}
+
+.ten_email input{
+    width: 100%;
+    height: 40px;
+}
+
+.nhapdl{
+    padding-bottom: 25px;
+}
+
+
+.ngoisao {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: left;
+  }
+  .ngoisao input {
+    display: none;
+  }
+  .ngoisao label {
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  .ngoisao label::before {
+    content: '\2605';
+    margin: 5px;
+  }
+  .ngoisao input:checked ~ label {
+    color: #f90;
+  }
+  .ngoisao label:hover{
+    color: #f90;
+  }
+
+  .btn-gui-nd{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 12px 25px 12px 25px;
+    background-color: red;
+    color: #fff !important;
+  }
+
+  .btn-gui-nd:hover{
+
+    opacity: 0.6;
+  }
+  .btn-gui{
+    margin-top: 20px;
+  }
+.mota-phai{
+    margin-right: 15px;
+    overflow: auto;
+}
+.mota-phai ul{
+    list-style-type: none;
+
+}
+  .mota-phai-sp{
+    width: 100%;
+    border: 1px solid #C1C1C1;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.mota-phai-sp:hover{
+  opacity: 0.6;
+}
+
+  .mota-phai-sp-ct{
+    width: 95%;
+    height: auto;
+    margin:auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: grid;
+    grid-template-columns: 28% 75%;
+    column-gap: 5%;
+    padding: 10px 0 10px;    
+  }
+
+  .mota-phai-sp-ct-anh{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mota-phai-sp-ct-anh img{
+    width: 100%;
+    height: 60%;
+    border-radius: 5px;
+  }
+
+  .mota-phai-sp-ct-thongtin{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 18px;
+}
+.mota-phai-sp-ct-thongtin h4 ,
+.mota-phai-sp-ct-thongtin h5 {
+  
+    font-size: 18px;
+}
+
+.mota-phai-tieude{
+    font-size: 23px;
+    font-weight: 700;
+    margin: 15px 0 20px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    padding: 5px 10px;
+ 
+    border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+.sanphamtuongtu{
+    width: 97%;
+    height: auto;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+
+    border: solid 1px #dddddd;
+ 
+}
+
+.sanphamtuongtu-con{
+    margin:0 15px;
+    padding-top: 15px;
+}
+
+#sanphamtuongtu-tieude{
+    margin-bottom:30px;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.row-sp{
+    border: 1px solid #C1C1C1;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+.row-sp-nd{
+    margin:5px;
+    
+
+}
+.row-sp-nd img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.row-sp-nd-mota{
+    margin:15px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.row-sp-nd-mota h4{
+    color: red;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #071422;
+    display: flex;
+ 
+}
+
+.footer .item1{
+    width: 300px;
+    margin: 0 50px 0 100px;
+}
+
+.footer .item1 img{
+    width: 100%;
+    height: auto;
+}
+.bxs-chevron-down:before {
+    content: "";
+}
+.footer .item1 p{
+    color: #fff;
+    font-size: 12px;
+    padding-left: 50px;
+}
+
+.footer .item1 .item1-icon{
+    padding: 20px 0 0 50px;
+    display: inline-flex;
+    column-gap: 10px;
+}
+.footer .item1 .item1-icon a:hover i{
+    background-color: aqua ;
+    color: #000;
+}
+.bx{
+   
+    padding: 7px;
+    color: #fff;
+}
+.thongtin{
+    color: #fff;
+    margin-top: 50px;
+    margin-right:100px;
+}
+
+.thongtin ul{
+    line-height: 30px;
+    padding-left: 20px;
+}
+
+.thongtin ul li{
+    font-size: 15px;
+    padding:5px 0;
+
+}
+
+.contact ul{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.contact ul li{
+ 
+  
+}
+
+.congdong{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #152330;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+.tensanpham h1  {
+    font-weight: 700;
+}   
+
+.nxcuaban p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.ten_email li p {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+a.row-sp.slick-slide {
+    width: 280px !important;
+}
+
+
+/* Modal form sign */
+.modal {
+
+    --bs-modal-width: 60% !important;
+}
+
+.modal-title {
+
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+}
+.modal-content input {
+    padding-left: 10px !important;
+}
+.modal-header  {
+    border-bottom: none !important;
+}
+.modal-body {
+    margin-left: 26px;
+
+    font-style: italic;
+    font-weight: 500;
+    padding: 10px 0px 3px 0px !important;
+}
+.modal-header img {
+    height: 100px ;
+    position: absolute ;
+    padding-left: 33% ; 
+}
+.modal-footer {
+    border-top: none !important;
+}
+.modal-body_input{
+    max-width: 96%;
+    margin: 0 25px;
+    min-height: 40px !important; 
+    border-radius: 8px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.modal-body_input-box input {
+    position: relative;
+    width: 95% !important;
+}
+.modal-body_input-col {
+    max-height: 80px;
+    display: grid;
+    grid-template-columns: 50% 47%;
+}
+.modal-body_icon.bxs-low-vision {
+    font-size: 25px;
+    position: relative;
+    right: -93%;
+    top: -127%;
+
+}
+.modal-body_input-box .fa-address-book{
+    font-size: 25px;
+    position: relative;
+    right: -92%;
+    top: -28%;
+}
+.width-65 {
+    max-width: 65% !important;
+    margin: 0 25px;
+    min-height: 40px !important;
+    border-radius: 8px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+.modal-footer {
+    justify-content: space-between !important;
+    padding: 15px 20px;
+    width: 98.5%;
+}
+.btn.btn-primary {
+    margin-left: 8px;
+    font-weight: 650;
+    font-size: 20px;
+    background: red;
+    padding: 6px 25px 6px 25px;
+    border: none;
+}
+
+.btn.btn-primary:hover {
+    background-color: red;
+}
+.modal-body_grid {
+    display: grid;
+    max-height: 40px;
+
+}
+
+.modal-footer_right a {
+    padding-left: 5px;
+    font-weight: 600;
+    font-size: 18px ;
+ color: red;
+
+
+}
+.modal-footer_right a:hover {
+    color: red;
+    opacity: 0.6;
+}
+
+.modal.show .modal-dialog{
+    display: block;
+}
+.modal-content{
+    position: absolute !important;
+    min-height: 455px;
+    margin-top: 100px;
+}
+.modal-content.modal-content-formsign  {
+    display: none;
+    z-index: 100;
+}
+.modal-content-formsign .modal-body  {
+    max-height: 40px    ;
+}
+
+
+
+.modal-body-checkbox {
+    margin-right: 5px;
+    margin-top: 3px;
+    padding-bottom: 0;
+    position: relative;
+    min-width: 20px;
+    min-height: 20px;
+}
+.font-normal {
+    font-style: normal !important;
+   display: grid;
+   grid-template-columns: 33% 50% 14%;
+   overflow-x: hidden;
+   overflow-y: hidden !important;
+   min-height: 70px;
+   margin-bottom: 30px ;
+}
+.font-normal p {
+        display: flex;
+    align-items: center;
+    
+}
+.font-normal a {
+    display: flex;
+    align-items: center;
+}
+
+.modal-body_FP {
+  padding-top: 10px;
+  color: #000;
+}
+.modal-body_FP:hover {
+    opacity: 0.6;
+    color: red !important ;
+    transform: scale(1.1);
+  }
+  .modal-footer-formsign {
+    display: grid !important;
+    grid-template-columns: 8% 7% 25%;
+  }
+  .modal-footer-formsign button {
+    padding: 6px 10px 6px 25px !important;
+  }
+  .modal-footer-formsign button:hover {
+    transform: none ;
+   
+  }
+  .modal-footer-formsign .btn-facebook {
+    color: white;
+    font-size: 16px ;
+    background-color: #3b62a3;
+    border-radius: 4px;
+    min-width: 212px;
+    border: solid 1px #000;
+  }
+  .modal-footer-formsign .btn-facebook:hover {
+    color: white;
+    background-color: #3b62a3;
+  }
+  .modal-footer-formsign .btn-facebook .fa-facebook-f  {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    bottom: 98px;
+    left: 22px;
+  }
+  
+  .modal-footer-formsign .btn-facebook  .fa-google{
+   font-size: 18px;
+    color: white;
+    position: absolute;
+   
+    bottom: 98px;
+    right: 205px;
+  
+  }
+
+    
+  .modal-footer-formsign .btn-facebook  .fa-twitter{
+    font-size: 18px;
+     color: white;
+     position: absolute;
+     bottom: 98px;
+     right: 525px;
+   }
+   
+   
+  
+.modal-footer_box .btn-google{
+    background-color: red;
+    color: white    ;
+    border: solid 1px #000;
+
+}
+.modal-footer_box .btn-google:hover{
+    background-color: red;
+    opacity: 0.6;
+
+}
+.modal-footer_box .btn-twitter {
+    background-color: #19b0e7;
+    border: solid 1px #000;
+}
+.modal-footer_box .btn-twitter:hover {
+    background-color: #19b0e7;
+    opacity: 0.6;
+}
+.modal-footer-spc {
+    position: absolute;
+    display: flex;
+    bottom: 25px;
+    left: 34%;  
+
+}
+.modal-footer-button-spc button {
+     width: 220px;
+}
+.modal-footer.modal-footer-formsign {
+    padding-top: 0 !important;
+}
+.modal-content.modal-content-formsign.js-modal-content-dangnhap.open {
+    display: block;
+}
+.modal-body_input{
+    min-width: 94.5% !important ;
+}
+

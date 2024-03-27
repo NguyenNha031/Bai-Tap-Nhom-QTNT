@@ -1,0 +1,334 @@
+/* PC */
+@media (width: 1280px)  {
+    .header-item {
+      margin: 0;
+    }
+    .header-nav_1  {
+        grid-template-columns: 37% 47% 50%;
+    }
+    .header-item-img {
+        margin-right: 0;
+    }
+    .header-item a h3 {
+        min-width: 92px;
+        margin: 0px 0px 0px 25px;
+    }
+    .header-item_link .bxs-chevron-down {
+        position: relative;
+        top: 0px;
+        right: -7px;
+    }
+}
+
+/* PC */
+
+
+@media (width: 1024px) and (height:1366px) {
+    .header-nav_1 {
+        grid-template-columns: 50% 30% 50%;   
+        padding: 0px 40px;
+        }
+        .header-item_link .bxs-chevron-down {
+            position: relative;
+            top: 0px;
+            right: 0px;
+        }
+        .header-item-img {
+            margin-right: 0;
+        }
+        .header-item {
+            width: 100%;          
+        }
+       .header-list-box {
+        padding-left: 0 !important;
+        }
+        .header-item a h3 {
+            min-width: 81px;
+            margin: 0px 0 0px 4px;
+        }
+       .header-item_shop {
+
+       }
+}
+
+/* Ipad */
+@media (min-width: 740px)  and (max-width:1023px) {
+    .header-list-box {
+        display: none;
+    }
+    img.header-shop_cart-number {
+        display: none;
+    }
+    header {
+        width: 103%;
+    }
+   .header-menu {
+    height: 227px;
+   }
+    .header-item_seach {
+        display: none;
+    }
+    .header-item_shop {
+        display: none;
+    }
+    .header-gmail {
+        display: none;
+    }
+    .header-nav_1 {
+        padding: 0;
+        grid-template-columns: 74% 50%;
+    }
+    .header-item {
+        margin: 0;
+      
+    }
+    .header-nav_1 {
+        width: 101%;
+    }
+    .carousel.slide {
+        width: 101%;
+
+    }
+    .header-menu-btn {
+        display: block;
+    }
+    .header-nav_1-item {
+        
+        padding: 18px 0px 15px 40px;
+    }
+    .header-item_shop-show {
+        display: block;
+        width: 50px;
+    height: 50px;
+    position: relative;
+    right: -210px;
+    }
+    .header-shop_btn button:first-child {
+        margin-right: 80px;
+    margin-left: 20px;
+    }
+    .header-cart-modal_overlay  {
+       background-color: transparent;
+    }
+    .header-cart-modal_box {
+        background-color: transparent;
+    }
+    .header-cart-modal_box  h3{
+        display: none;
+    }
+    .footer .item1 {
+        width: 250px;
+    margin: 0 0 0 0;
+    }
+    .footer .item1 img {
+        margin-top: 25px;
+    }
+    .footer .item1 p  {
+        padding-left: 37px;
+    }
+    .footer .item1 .item1-icon {
+        padding: 20px 0 0 25px;
+    }
+    .thongtin ul {
+        padding-left: 5px;
+    }
+    .thongtin {
+        width: 174px;
+ 
+    margin-right: -45px;
+    }
+    .footer .item1 {
+        max-width: 210px;
+    }
+    .dichvuchinh.thongtin {
+        margin-right: 10px;
+    }
+    .thongtin-box {
+        display: inline-flex;
+    }
+}
+
+/* Mobile */
+@media (max-width:720px) {
+    .header-menu-btn {
+        display: block;
+        position: relative;
+    left: 61px;
+    }
+    .header-list-box {
+        display: none;
+    }
+    .header-nav_1 {
+        display: none;
+    }
+    .header-item{
+        width: 90%;
+        height: 60px;
+    
+     
+    }
+    .header-item-img{
+        margin-right: 50px;
+        height: 50px;
+        top: 0;
+        z-index: 1 !important;
+    }
+    .header-item button {
+        z-index: 1;
+        height: 40px;
+        margin: 10px -95px 0px 20px;
+    }
+    .header-menu-btn i {
+        font-size: 22px;
+        padding: 10px 11px 10px 11px;
+    }
+    .header-search_mobile-show {
+        display: block;
+    }
+    .header-item_shop-show {
+        display: block;
+        width: 45px;
+   
+    position: relative;
+    
+    }
+    .header-shop_cart-number {
+        display: none !important;
+    }
+    .header-nav_signin-moblie {
+        display: block !important;
+        margin: 10px -10px !important;
+        
+    }
+    .header-nav_signin-moblie i{
+        color: white !important;
+    }
+    .header-shop_moblile {
+        position: absolute;
+        display: block;
+        border-radius: 0;
+        border: none;
+        box-shadow: none;
+        transition: all 1s ease-in;
+        z-index: 1;
+        width: 96%;
+        background-color: transparent;
+        top: 80px;
+        left: 14px;
+        padding-left: 0;
+    }
+    .header-shop li {      
+        border-bottom: solid 1px #c9c9c9;  
+        grid-template-columns: 35% 60% 8%;
+        margin: 15px 0px 15px 7px;
+        padding: 5px 0px 10px 0px;
+        width: 85%;
+    }
+    .header-shop li:not(.header-shop_total) {      
+       
+        min-height: 100px;      
+     
+    }
+    .header-shop_total {
+        margin-top: 10px;
+        height: 70px;      
+     }  
+     .header-shop_total h5 {
+      width: 100px;
+     }  
+     .header-shop li img {
+        height: 80%;
+        width: 90%;
+     }
+     .header-shop_btn button:first-child {
+        display: none;
+    }
+     .header-shop_btn button {
+        margin: 0px 20px 0px 50px;
+        border: none;
+    }
+    .header-shop_total p {
+        padding-left: 62px;       
+    }
+    .footer .item1 {
+        width: 95%;
+       margin: 0;
+    }
+    .footer {
+        display: inline-block;
+    }
+    .thongtin-box {
+        display: inline-flex;
+    }
+    .thongtin {
+        margin: 20px;
+    }
+    
+
+}
+
+
+
+/* @media only screen and (max-width: 1024px) {
+    .header-nav_1 {
+            
+        grid-template-columns: 41% 38% 50%;  
+        padding: 0px 40px;
+    }
+    .header-item {
+      
+        width: 100%;
+      
+    }
+    .header-item-img {
+        margin-right: 0px;
+      
+    }
+    .header-list-box li {
+        margin-right: 0px;
+        max-width: 92px;
+    }
+    ol, ul {
+        padding-left: 0px !important;
+    }
+    .header-shop {
+        width: 290px;
+    }
+    .header-shop li {
+        border: none;
+        grid-template-columns: 110% 130% 8%;
+    }
+    .header-shop_total p {
+        padding-left: 50px;
+    }
+    .header-item button {
+        margin: 25px 0px 20px 9px;
+    }
+    .header-seach-modal_box {
+       
+        left: 212px;     
+    }
+} */
+
+/* Ẩn menu trên màn hình nhỏ */
+/* @media only screen and (max-width: 412px) {
+  .menu {
+    display: none;
+  }
+} */
+
+
+@media (min-width: 576px) {
+    .modal-sm {
+        --bs-modal-width: 60% !important  ;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 100% !important;
+        margin-top: -20px;
+
+    }
+    
+}
