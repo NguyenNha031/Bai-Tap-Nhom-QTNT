@@ -135,7 +135,7 @@ ol, ul {
 }
 .thongtin-cuahang{
     width: 100%;
-    height: 90%;
+    height: 98%;
     background-color: #fff;
 }
 .thongtin-cuahang-chitiet{
@@ -296,7 +296,7 @@ ol, ul {
 }
 .footer{
     width: 100%;
-    height: 300px;
+    height: auto;
     background-color: #071422;
     display: flex;
 }
